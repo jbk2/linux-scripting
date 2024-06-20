@@ -18,8 +18,3 @@ ssh_as_ubuntu() {
 ssh_as_user() {
   ssh $APP_SSH_ARGS $@
 }
-
-fail() {
-  echo -e "Failed: $1"
-  exit 1
-}
