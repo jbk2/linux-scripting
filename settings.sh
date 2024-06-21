@@ -1,6 +1,17 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# ----------------------------------------
+
+INFO="\033[0;32m"  # Green
+SUCCESS="\033[1;32m"  # Green bold
+ALERT="\033[0;34m"    # Blue
+WARNING="\033[0;33m"  # Yellow
+ERROR="\033[0;31m"    # Red
+NC="\033[0m"          # No color
+
+# ----------------------------------------
+
 USER=${USER:-deploy}
 SERVER=${SERVER:-13.36.100.115}
 SERVER_NAME=${SERVER_NAME:-www.ctrlaltdelete.com}
