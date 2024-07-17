@@ -13,7 +13,7 @@ NC="\033[0m"          # No color
 # ----------------------------------------
 
 USER=${USER:-deploy}
-SERVER=${SERVER:-13.36.100.115}
+SERVER=${SERVER:-13.39.86.143}
 SERVER_NAME=${SERVER_NAME:-www.ctrlaltdelete.com}
 PORT=${PORT:-22} # default ssh port
 SSH_KEY=${SSH_KEY:-~/Documents/Code/Credentials/toy-app1-keypair.pem}
